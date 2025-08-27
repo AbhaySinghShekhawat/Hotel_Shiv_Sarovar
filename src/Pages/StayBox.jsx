@@ -1,5 +1,5 @@
 import React from "react";
-import img from '../assets/images/img7.avif'
+import img from '../assets/images/img2.jpg'
 
 function StayBox() {
   return (

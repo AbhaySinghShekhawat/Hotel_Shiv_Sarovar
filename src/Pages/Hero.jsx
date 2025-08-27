@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import img from '../assets/images/img1.jpg'
-import img1 from '../assets/images/img8.jpeg'
-import img2 from '../assets/images/img9.jpeg'
+import img1 from '../assets/images/img8.jpg'
+import img2 from '../assets/images/img9.jpg'
 
 const Hero = () => {
   const images = [
@@ -25,7 +25,7 @@ const Hero = () => {
         {images.map((img, index) => (
           <div
             key={index}
-            className={`absolute inset-0 bg-cover bg-fixed bg-center transition-opacity duration-1000 ease-in-out ${
+            className={`absolute inset-0 bg-cover bg-fixed bg-no-repeat bg-center transition-opacity duration-1000 ease-in-out ${
               index === currentImage ? "opacity-100" : "opacity-0"
             }`}
             style={{ backgroundImage: `url(${img})` }}
@@ -36,7 +36,7 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
-        <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 to-yellow-500 bg-clip-text text-transparent drop-shadow-lg">
+        <h1 className="text-4xl md:text-6xl font-bold text-black/100 backdrop-blur-md px-4 py-2 rounded-lg shadow-lg">
           Hotel Shiv Sarovar
         </h1>
         <p className="mt-4 text-lg md:text-xl text-gray-200 max-w-2xl">

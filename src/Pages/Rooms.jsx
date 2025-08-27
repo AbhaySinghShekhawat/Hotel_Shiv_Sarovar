@@ -1,7 +1,7 @@
 import React from "react";
 import img from '../assets/images/img4.jpg'
 import img1 from '../assets/images/img5.jpg'
-import img2 from '../assets/images/img-6.jpg'
+import img2 from '../assets/images/img6.jpg'
 
 const rooms = [
   {
