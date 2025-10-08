@@ -22,9 +22,8 @@ const Locations = () => {
   return (
     <section id="locations" className="bg-gray-50 py-16 px-6 md:px-16">
       <div className="mx-auto text-start  mb-12">
-    <h2 className="text-4xl md:text-5xl font-bold 
-               bg-gradient-to-r from-blue-600 to-yellow-500 
-               bg-clip-text text-transparent inline-block mb-4">
+    <h2 className="text-4xl md:text-4xl font-bold 
+                mb-4">
                  Locations
             </h2>
 

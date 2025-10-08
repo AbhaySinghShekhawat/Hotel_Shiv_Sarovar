@@ -17,7 +17,7 @@ const InAround = () => {
     <section id="gallery" className="bg-gray-50 py-16 pt-20 px-6 lg:px-20">
       <div className="text-start mx-auto mb-12">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">
-          In <span className="bg-gradient-to-r from-blue-600 to-yellow-500 bg-clip-text text-transparent">&</span> Around
+          In & Around
         </h2>
         <p className="mt-4 text-lg text-gray-600">
           Moments from our spaces and the nature around us.

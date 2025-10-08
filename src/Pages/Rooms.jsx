@@ -31,22 +31,21 @@ export default function Rooms() {
       id="rooms"
       className="py-16 px-6 md:px-12 lg:px-20 bg-gradient-to-b from-white to-gray-50"
     >
-      <div className="pt-20 mx-auto">
-        <h2 className="text-4xl text-start md:text-5xl font-bold text-gray-900 mb-4">
-          Our{" "}
-          <span className="bg-gradient-to-r from-blue-600 to-yellow-500 bg-clip-text text-transparent ">
-            Rooms
-          </span>
+      <div className="pt-20 mx-auto ">
+        <h2 className="text-4xl text-start md:text-4xl font-bold text-gray-900 mb-4">
+          Our
+          Rooms
+          
         </h2>
-        <p className="text-lg text-start text-gray-600 mb-12">
+        <p className="text-lg text-start text-[#1e293b] mb-12">
           Refined spaces designed for calm, comfort, and connection with nature.
         </p>
 
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="flex flex-wrap lg:flex-nowrap justify-between items-center gap-5">
           {rooms.map((room, index) => (
             <div
               key={index}
-              className="group relative bg-white/90 shadow-lg rounded-2xl w-full sm:w-[90%] md:w-[45%] lg:w-[30%] flex flex-col overflow-hidden"
+              className="group relative bg-white/90 shadow-lg rounded-2xl w-full sm:w-[90%] md:w-[45%] lg:w-[35%] flex flex-col overflow-hidden"
             >
               <div className="relative overflow-hidden">
                 <img
