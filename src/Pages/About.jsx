@@ -8,7 +8,7 @@ export default function About() {
   const images = [img1, img2, img3, img4];
 
   const features = [
-    "Complimentary Breakfast",
+    "Hygienic Room",
     "High-speed Wi-Fi",
     "24×7 Reception",
     "Airport Pickup (on request)",

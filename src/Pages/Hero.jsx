@@ -21,7 +21,7 @@ const Hero = () => {
           Riverside serenity and premium stays across Haridwar & Dehradun.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4">
+        <div className="flex sm:flex-row gap-4">
           <button className="px-8 py-3 rounded-md font-semibold text-white bg-gradient-to-r from-blue-700 to-yellow-400 shadow-md hover:scale-105 transition-transform">
             Explore Rooms
           </button>
